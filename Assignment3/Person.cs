@@ -23,7 +23,7 @@ public class Person : BaseClass
 		if (LastName == null)
 			LastName = "";
 
-		// Check if both fields have values
+		// Check if both FirstName and LastName have a length greater than 0
 		if (FirstName.Length > 0 && LastName.Length > 0)
 			return true;
 		else
